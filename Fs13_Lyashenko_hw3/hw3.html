@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+  		<title>hw3</title>
+  		<link rel="stylesheet" type="text/css" href="css/main.css">
+	</head>
+	<body>
+		<!--level1-->
+		<img id="left" src="img/a-level-ico.png" alt=" ">
+		<p>Алиса хочет отправить важное сообщение Бобу
+		</p>
+		<p>Сообщение a = ( a<sub>1</sub>, ..., a<sub>n</sub> ) является последовательностью положительных чисел ( символов )
+		</p>
+		<p>Для сжатия сообщения Алиса хочет использовать <span class="spangreen">двоичный код Хаффмана</span>
+		</p>
+		<p>Напомним, что двоичный код Хаффмана, или <span id="i">двоичный префиксно-свободный код</span> — это функция<span class="f"> f</span>, которая сопоставляет каждому символу сообщения двоичные строки (то есть строки, состоящие только из символов «0» и «1») таким образом, 
+		что ни для какой пары различных символов a<sub>i</sub> и a<sub>j</sub> строка <span class="f"> f</span>( a<sub>i</sub> ) 
+		не является префиксом <span class="f"> f</span>( a<sub>j</sub> ) (и наоборот)
+		Результатом кодирования сообщения a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub> является конкатенация кодов отдельных символов, то есть строка <span class="f"> f</span>( a<sub>1</sub> ) <span class="f"> f</span>( a<sub>2</sub> )... <span class="f"> f</span>( a<sub>n</sub> )
+		</p>
+		<p>Коды Хаффмана удобны тем, что закодированное сообщение можно легко и однозначно декодировать, 
+		если знать код
+		</p>
+		<img id="right" src="img/a-level-ico.png" alt=" ">
+		<p>Код обычно выбирается таким образом, чтобы минимизировать суммарную длину закодированного сообщения, 
+		то есть длину строки <span class="f"> f</span>( a<sub>1</sub> ) <span class="f"> f</span>( a<sub>2</sub> )... <span class="f"> f</span>( a<sub>n</sub>)
+		</p>
+		<p>Алиса не хочет посылать сообщение целиком, поскольку это слишком рискованно
+		</p>
+		<p>Вместо этого она выбрала несколько частей сообщения и хочет отправить их по отдельности
+		</p>
+		<p>Для каждой выбранной подстроки a<sub>ki</sub>... a<sub>mi</sub> она хочет найти минимальную длину этой подстроки, закодированной по Хаффману
+		</p>
+		<p>Помогите ей с этой задачей
+		</p>
+		<!--level2-->
+		<div class="map">
+				<p><q>Судьба тосует карты, а мы ими играем.</q><br>
+				<cite><i>Артур Шопенгаур</i></cite></p>
+				<img class="card" id="card-45" src="img/card01.png" alt=" ">
+				<img class="card" id="card-20" src="img/card01.png" alt=" ">	
+				<img class="card" id="card20" src="img/card01.png" alt=" ">
+		</div>
+		<!--level3-->
+		<div class="imgtext">
+			
+			<img class="img" id="img1" src="img/1.jpg" alt=" ">
+			
+			<img class="img" id="img2" src="img/2.jpg" alt=" ">
+			
+			<img class="img" id="img3" src="img/3.jpg" alt=" ">
+			
+			<img class="img" id="img4" src="img/4.jpg" alt=" ">
+		</div>			
+	</body>
+</html>		

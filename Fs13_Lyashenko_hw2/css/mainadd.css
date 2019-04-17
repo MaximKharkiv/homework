@@ -1,0 +1,13 @@
+
+/*ADD1*/
+.psevdo:after { 
+content: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjio3hZ8kkwKn7FBB6IJh7ha65UgVkZDiYTg9GbSjygMJhYbK-ZA); 
+display: inline-block;
+margin-right: 10px; 
+}
+.psevdo:before{
+	content: "google.com"
+}
+.psevdo{
+	text-decoration: none;
+}

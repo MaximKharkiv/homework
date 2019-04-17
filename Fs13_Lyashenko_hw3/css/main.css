@@ -1,0 +1,123 @@
+
+#right, #left{
+	width:150px;
+}
+#left{
+	float :left;
+	margin:0 15px 15px 0;
+}
+#right{
+	float:right;
+	margin: 0 0 15px 15px;
+}
+sub{
+	color: blue;
+}
+.f{
+	color:blue;
+	font-style: oblique;
+}
+#i{
+	font-style:oblique;
+	font-weight:200;
+}
+.spangreen{
+	color: green;
+	font-weight:bolder;
+}
+.spangreen:hover::after {
+	color: black;
+	font-weight:normal;
+    content: "двоичный префиксно-свободный код"; /* Выводим текст */
+    position: absolute; /* Абсолютное позиционирование */
+    left: 400px; top: 110px; /* Положение подсказки */
+    z-index: 1; /* Отображаем подсказку поверх других элементов */
+    background: rgba(255,255,245,0.9); /* Полупрозрачный цвет фона */
+    font-size: 10px; /* Размер текста подсказки */
+    padding: 2px 2px; /* Поля */
+    border: 1px solid #333; /* Параметры рамки */
+    box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, .2);
+}
+/*level2*/
+.map{
+	position:static;
+	background:#0d5825;
+	font-size: 25px;
+	color :white;
+	text-align: center;
+	height: 400px;
+	width:500px;
+}
+.card{
+	position:relative;
+	width: 150px;
+}
+#card20{
+	transform: rotate(10deg);
+	left:-100px;
+	top:20px;
+}
+#card-20{
+	transform: rotate(-20deg);
+}
+#card-45{
+	transform: rotate(-35deg);
+	left:100px;
+}
+.card:hover{
+	top:-20px;
+	transition: top, 1s ease;
+}
+/*level3*/
+.imgtext{
+	height: 600px;
+	width:600px;
+	position:relative;
+}
+.img{
+	width:150px;
+	height:150px;
+	position:absolute;
+	padding:2px;
+	z-index: 1;
+}
+.text{
+	width:250px;
+	height:250px;
+	position:absolute;
+	padding:2px;
+	background: rgba(255,255,225,0.9);
+}
+#img1,#text1{
+	top: 0px;
+	left:0px;
+}
+#img2,#text2{
+	top: 75px;
+	left:75px;
+}
+#img3,#text3{
+	top: 150px;
+	left:150px;
+}
+#img4,#text4{
+	top: 225px;
+	left:225px;
+}
+.img:hover::after {
+	width:250px;
+	height:250px;
+	color: black;
+	font-weight:normal;
+    content:"Text1ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt";
+    position: absolute; /* Абсолютное позиционирование */
+    left: 0px; top: 0px; /* Положение подсказки */
+    z-index: 2; /* Отображаем подсказку поверх других элементов */
+    background: rgba(255,255,225,0.9); /* Полупрозрачный цвет фона */
+    font-size: 10px; /* Размер текста подсказки */
+    padding: 2px 2px; /* Поля */
+    border: 1px solid #333; /* Параметры рамки */
+    box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, .2);
+  }  
+  /* У меня есть несколько вопросов: Почему одна карта из второго задания не двигается. Как правильно обратится к картинкам по имени
+   файла, чтобы не использовать ID, Как сделать третье задание?*/

@@ -1,0 +1,49 @@
+h1{
+	color : #FFFF00;
+}
+/* level 2 */
+li{
+	list-style-type : none;
+}
+li:first-child{
+	color : #008000;
+}
+li:nth-child(3n+1){
+	background : #FFFF00;
+}
+a{
+	text-decoration : none;
+}
+a:hover{
+	background : #786b59;
+	color : #ffe;
+}
+li:before{
+	content : "-";
+}
+/* level 3 */
+*{
+	width : 400px;
+}
+	.box{
+		width: 50px;
+ 		height: 50px;
+ 		border: 2px solid black;
+ 		padding: 20px;
+ 		margin: 10px;
+ 		display : inline-block;
+ 		font-size : 100pt;
+ 		text-align:center;
+ 		line-height : 50px;
+		}	
+		#dot{
+ 		width: 10px;
+ 		height: 10px;
+ 		margin: 0; 
+		}
+.box:hover{
+	background : #FFFF00;
+}
+#dot:hover{
+	color : #0000FF ;
+}
